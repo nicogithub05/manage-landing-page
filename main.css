@@ -1,0 +1,39 @@
+:root {
+    /*colors*/
+--naranja: hsl(12, 88%, 59%);
+--Azul: hsl(228, 39%, 23%);
+--gris: hsl(227, 12%, 61%);
+--negro: hsl(233, 12%, 13%);
+--rosa: hsl(13, 100%, 96%);
+--blanco: hsl(0, 0%, 98%);
+
+    /* Tipografía */
+--font-family: "Be Vietnam Pro", sans-serif;
+--font-size: 16px;
+--light: 400;
+--semibold: 500;
+--bold: 700;
+
+    /*Responsive*/
+--mobile: 375px;
+--desktop: 1440px
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
+}
+
