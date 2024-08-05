@@ -36,6 +36,16 @@ body {
     font-size: var(--font-size);
     font-family: var(--font-family);
     margin: 30px 20px 20px 30px;
+    color: var(--gris);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--Azul);
 }
 
 /* header */
@@ -44,4 +54,35 @@ body {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+}
+
+/* section hero */
+
+.hero {
+    text-align: center;
+}
+
+.contenedor-image-hero__image {
+    max-width: 100%;
+}
+
+.contenedor-info-hero__title {
+    font-size: 3.2rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.contenedor-info-hero__pgraph {
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+.contenedor-info-hero__button {
+    height: 40px;
+    background-color: var(--naranja);
+    padding: 0 30px 0 30px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    margin-bottom: 100px;
 }
