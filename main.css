@@ -86,3 +86,35 @@ h6 {
     border-radius: 50px;
     margin-bottom: 100px;
 }
+
+/* section whats different */
+
+.whats-different__container1 {
+    text-align: center;
+}
+
+.whats-different__container1--title {
+    font-size: 3.0rem;
+    margin-bottom: 20px;
+}
+
+.whats-different__container1--pgraph {
+    line-height: 25px;
+    margin-bottom: 70px;
+}
+
+.whats-different__container2--title {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+
+.whats-different__container2--span {
+    padding: 5px 15px;
+    background-color: var(--naranja);
+    border-radius: 40px;
+    margin-right: 10px;
+}
+
+.whats-different__container2--pgraph {
+    margin-bottom: 50px;
+}
