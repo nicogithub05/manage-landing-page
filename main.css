@@ -118,3 +118,36 @@ h6 {
 .whats-different__container2--pgraph {
     margin-bottom: 50px;
 }
+
+/* Section What theyve said */
+
+.what-theyve-said {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.what-theyve-said__container1 {
+    background-color: rgb(247, 247, 247) ;
+    margin-bottom: 80px;
+}
+
+.what-theyve-said__title {
+    margin-bottom: 80px;
+}
+
+.what-theyve-said__container1--image {
+    width: 70px;
+    margin-top: -35px;
+}
+
+.what-theyve-said__container1--title {
+    margin: 20px 0 20px 0;
+}
+
+.what-theyve-said__container1--pgraph {
+    padding-bottom: 30px;
+}
+
+.pgraph-ali {
+    padding: 0 20px 30px 20px;
+}
