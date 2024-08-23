@@ -35,7 +35,6 @@ html {
 body {
     font-size: var(--font-size);
     font-family: var(--font-family);
-    margin: 30px 20px 20px 30px;
     color: var(--gris);
 }
 
@@ -54,12 +53,14 @@ h6 {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
+    margin: 30px 20px 20px 30px;
 }
 
 /* section hero */
 
 .hero {
     text-align: center;
+    margin: 30px 20px 20px 30px;
 }
 
 .contenedor-image-hero__image {
@@ -88,6 +89,12 @@ h6 {
 }
 
 /* section whats different */
+
+
+.whats-different {
+    margin: 30px 20px 20px 30px;
+}
+
 
 .whats-different__container1 {
     text-align: center;
@@ -124,6 +131,7 @@ h6 {
 .what-theyve-said {
     text-align: center;
     padding: 0 30px;
+    margin: 30px 20px 20px 30px;
 }
 
 .what-theyve-said__container1 {
